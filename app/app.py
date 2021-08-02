@@ -33,6 +33,14 @@ def table():
     return make_response(jsonify(result), 200, headers)
 
 
+@app.route('/zillow/<zipcode>', methods=['GET', 'POST'])
+def find_zipcode(zipcode):
+    cursor = mysql.get_db().cursor()
+    cursor.execute('SELECT * FROM zillow WHERE zip = %s', zipcode)
+    result = cursor.fetchall()
+    return render_template('table.html', houses=result)
+
+
 @app.route('/add_listing', methods=['GET', 'POST'])
 def add_listing():
     form = ListingForm()
