@@ -1,0 +1,40 @@
+{% extends 'layout.html' %}
+{% block title %}
+    Add Listing
+{% endblock %}
+
+{% block content %}
+    <div class="form-wrapper">
+        <h2 class="title">
+            Add Listing
+        </h2>
+        <form method="POST" action="{{ url_for('add_listing') }}">
+            <fieldset class="form-field">
+            {{ form.living_space_area.label }}
+            {{ form.living_space_area(size=20) }}
+            </fieldset>
+
+            <fieldset class="form-field">
+              {{ form.bedrooms.label }}
+              {{ form.bedrooms }}
+            </fieldset>
+
+            <fieldset class="form-field">
+              {{ form.bathrooms.label }}
+              {{ form.bathrooms }}
+            </fieldset>
+
+            <fieldset class="form-field">
+              {{ form.zipcode.label }}
+              {{ form.zipcode }}
+            </fieldset>
+
+            <fieldset class="form-field">
+              {{ form.list_price.label }}
+              {{ form.list_price }}
+            </fieldset>
+
+          {{ form.submit }}
+        </form>
+    </div>
+{% endblock %}
