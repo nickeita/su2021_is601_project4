@@ -17,7 +17,7 @@ mysql.init_app(app)
 def home():
     if request.method != 'GET':
         return make_response('Malformed request', 400)
-    return render_template('home.html')
+    return render_template('home.html', title="Welcome Home", description="Your Resource For House Listings")
 
 
 @app.route('/table', methods=['GET'])
