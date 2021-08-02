@@ -4,31 +4,12 @@
 {% endblock %}
 
 {% block content %}
-<form>
-    <div class="row">
-        <div class="col px-md-3">
-            <div class="p-3">
-                <input type="text" class="form-control" placeholder="Desired Living Space in square feet">
-            </div>
-        </div>
-        <div class="col px-md-3">
-            <div class="p-3">
-                <input type="text" class="form-control" placeholder="Min Price">
-            </div>
-        </div>
-        <div class="col px-md-3">
-            <div class="p-3">
-                <input type="text" class="form-control" placeholder="Max Price">
-            </div>
-        </div>
-        <div>
-            <div class="p-2">
-                <form action="/table" method="post">
-<!--                    <button type="submit" class="btn btn-primary btn-lg active mb-2">Search</button>-->
-                    <a href="/table" class="btn btn-primary btn-lg active mb-2" role="button" aria-pressed="true">Search</a>
-                </form>
-            </div>
-        </div>
+    <div>
+        <h1>
+            {{title}}
+        </h1>
+        <p>
+            {{description}}
+        </p>
     </div>
-</form>
 {% endblock %}
