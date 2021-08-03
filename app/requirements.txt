@@ -2,3 +2,4 @@ Flask
 flask-mysql
 simplejson
 flask-wtf
+flask_redis
