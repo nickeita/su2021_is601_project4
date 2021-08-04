@@ -1,11 +1,12 @@
 from flask import Flask
 from flask_redis import Redis
-from flaskext.mysql import MySQL
-from pymysql.cursors import DictCursor
 from flask_assets import Environment
+from flask_sqlalchemy import SQLAlchemy
+
+agent_db = SQLAlchemy()
+houses_db = SQLAlchemy()
 
 redis = Redis()
-mysql = MySQL(cursorclass=DictCursor)
 
 
 def init_app():
@@ -17,12 +18,14 @@ def init_app():
     style_bundle.build()
     js_bundle.build()
 
-    mysql.init_app(app)
+    agent_db.init_app(app)
+    houses_db.init_app(app)
     redis.init_app(app)
     assets.init_app(app)
 
     with app.app_context():
         from .home import routes
+        from .agent import routes
 
         app.register_blueprint(routes.home_bp)
 
