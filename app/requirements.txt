@@ -3,3 +3,7 @@ flask-mysql
 simplejson
 flask-wtf
 flask_redis
+flask-assets
+lesscpy
+cssmin
+jsmin
