@@ -90,8 +90,19 @@ Home page html file using jinja
 
 ### IX. Connect Flask to a Database with Flask-SQLAlchemy
 ---
+
+![image19](/screenshots/part9-config.png)
+---
+
+![image20](/screenshots/part9-init.png)
+---
+
+![image18](/screenshots/part9-agent-model.png)
+---
+
 ### X. Handle User Accounts & Authentication in Flask with Flask-Login
 ---
+
 ### XI. Managing Session Data with Flask-Session & Redis
 ---
 
