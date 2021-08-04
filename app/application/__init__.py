@@ -15,7 +15,7 @@ def init_app():
     redis.init_app(app)
 
     with app.app_context():
-        from . import routes
+        from .home import routes
 
         app.register_blueprint(auth.auth_bp)
         app.register_blueprint(admin.admin_bp)
