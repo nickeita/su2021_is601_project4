@@ -7,3 +7,4 @@ flask-assets
 lesscpy
 cssmin
 jsmin
+flask-sqlalchemy
