@@ -57,8 +57,22 @@ Home page html file using jinja
 
 ### VI. Demystifying Flask’s Application Factory
 ---
+
+![image12](/screenshots/part6-init.png)
+---
+
+![image13](/screenshots/part6-wsgi.png)
+---
+
 ### VII. Organizing Flask Apps with Blueprints
 ---
+
+![image14](/screenshots/part7-init.png)
+---
+
+![image15](/screenshots/part7-routes.png)
+---
+
 ### VIII. Compiling Frontend JavaScript & Stylesheets Flask
 ---
 ### IX. Connect Flask to a Database with Flask-SQLAlchemy
