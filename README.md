@@ -75,6 +75,19 @@ Home page html file using jinja
 
 ### VIII. Compiling Frontend JavaScript & Stylesheets Flask
 ---
+
+![image15](/screenshots/part8-requirements.png)
+---
+
+![image16](/screenshots/part8-init.png)
+---
+
+![image17](/screenshots/part8-assets.png)
+---
+
+![image18](/screenshots/part8-config.png)
+---
+
 ### IX. Connect Flask to a Database with Flask-SQLAlchemy
 ---
 ### X. Handle User Accounts & Authentication in Flask with Flask-Login
