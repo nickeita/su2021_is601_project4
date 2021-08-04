@@ -38,12 +38,33 @@ Home page html file using jinja
 ![image7](/screenshots/part3-python-pycharm.png)
 ---
 
+![image8](/screenshots/part3-html-pycharm.png)
+
 ### IV. The Art of Routing in Flask
+---
+
+![image9](/screenshots/part4-python-pycharm.png)
+---
+
+![image10](/screenshots/part4-googlechrome.png)
+---
+
 ### V. Configuring Your Flask App
+---
+
+![image11](/screenshots/part5-python-pycharm.png)
+---
+
 ### VI. Demystifying Flask’s Application Factory
+---
 ### VII. Organizing Flask Apps with Blueprints
-### VIII.
-### IX.
-### X. 
-### XI.
+---
+### VIII. Compiling Frontend JavaScript & Stylesheets Flask
+---
+### IX. Connect Flask to a Database with Flask-SQLAlchemy
+---
+### X. Handle User Accounts & Authentication in Flask with Flask-Login
+---
+### XI. Managing Session Data with Flask-Session & Redis
+---
 
